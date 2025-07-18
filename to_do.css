@@ -40,3 +40,36 @@ button {
   padding-top: 20%;
   color: white;
 }
+
+#todo-list {
+  width: 60%;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#todo-list li {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todo-list li.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+#new-todo {
+  width: 60%;
+  padding: 1rem;
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}

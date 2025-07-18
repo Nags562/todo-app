@@ -1,14 +1,42 @@
 body {
   /* align-items: center; */
   text-align: center;
-  background-image: url(./144Z_2106.w026.n002.526B.p1.526.jpg);
+  /* background-image: url(./144Z_2106.w026.n002.526B.p1.526.jpg); */
+  background-image: url(./images/bg-desktop-dark.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: black;
+}
+img {
+  width: 100%;
 }
 
-.TD{
-    color: white;
-    padding-bottom: 5%;
+.TD {
+  color: white;
+  /* padding-bottom: 10%; */
+  padding-top: 5%;
 }
 
-.CTD{
-    border-radius: 10%;
+.controls {
+  /*background: none;
+  border: none; */
+  display: flex;
+  /* text-align: justify; */
+  padding-left: 15%;
+  gap: 10%;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-input {
+  padding-top: 5%;
+}
+.foot {
+  padding-top: 20%;
+  color: white;
 }
